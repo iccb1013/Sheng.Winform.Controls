@@ -15,7 +15,6 @@ namespace Sheng.Winform.Controls
 
         public ShengGroupBox()
         {
-            LicenseManager.Validate(typeof(ShengGroupBox));
         }
 
         #endregion

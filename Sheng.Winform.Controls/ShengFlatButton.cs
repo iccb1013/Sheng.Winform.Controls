@@ -124,7 +124,6 @@ namespace Sheng.Winform.Controls
 
         public ShengFlatButton()
         {
-            LicenseManager.Validate(typeof(ShengFlatButton)); 
 
             InitializeComponent();
 

@@ -112,8 +112,6 @@ namespace Sheng.Winform.Controls
 
         public ShengColorChooseComboBoxDropDown()
         {
-            //死循环
-            //LicenseManager.Validate(typeof(SEColorChooseComboBoxDropDown)); 
 
             InitializeComponent();
 

@@ -28,7 +28,6 @@ namespace Sheng.Winform.Controls
 
         public ShengSimpleCheckBox()
         {
-            LicenseManager.Validate(typeof(ShengSimpleCheckBox)); 
 
             this.SetStyle(ControlStyles.UserPaint, true);
             this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);

@@ -359,7 +359,6 @@ namespace Sheng.Winform.Controls
 
         public ShengToolStrip()
         {
-            LicenseManager.Validate(typeof(ShengToolStrip)); 
 
             this.m_imageProvider = new ShengToolStripImageProviderCollection();
             this.m_defaultProvider = this;

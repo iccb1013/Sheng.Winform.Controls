@@ -87,7 +87,6 @@ namespace Sheng.Winform.Controls
         /// </summary>
         public ShengThumbnailImageListView()
         {
-            LicenseManager.Validate(typeof(ShengThumbnailImageListView)); 
 
             ImageList il = new ImageList();
             il.ImageSize = new Size(thumbNailSize, thumbNailSize);

@@ -53,7 +53,6 @@ namespace Sheng.Winform.Controls
 
         public ShengComboBox()
         {
-            LicenseManager.Validate(typeof(ShengComboBox));
         }
 
         #endregion

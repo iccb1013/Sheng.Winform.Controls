@@ -13,7 +13,6 @@ namespace Sheng.Winform.Controls
     {
         public ShengDataGridViewCheckBoxColumn()
         {
-            LicenseManager.Validate(typeof(ShengDataGridViewCheckBoxColumn)); 
 
             this.CellTemplate = new SEDataGridViewCheckBoxCell();
         }
@@ -33,7 +32,6 @@ namespace Sheng.Winform.Controls
 
         public SEDataGridViewCheckBoxCell()
         {
-            LicenseManager.Validate(typeof(SEDataGridViewCheckBoxCell)); 
         }
 
         protected override void Paint(Graphics graphics, Rectangle clipBounds, Rectangle cellBounds,

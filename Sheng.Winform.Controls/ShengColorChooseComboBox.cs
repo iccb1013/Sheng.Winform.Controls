@@ -45,7 +45,6 @@ namespace Sheng.Winform.Controls
 
         public ShengColorChooseComboBox()
         {
-            LicenseManager.Validate(typeof(ShengColorChooseComboBox)); 
 
             InitializeComponent();
 

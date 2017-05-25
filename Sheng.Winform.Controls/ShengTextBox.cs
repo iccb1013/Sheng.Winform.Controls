@@ -16,8 +16,7 @@ namespace Sheng.Winform.Controls
 
         public ShengTextBox()
         {
-            LicenseManager.Validate(typeof(ShengTextBox));
-        }
+       }
 
         #endregion
 

@@ -233,7 +233,6 @@ namespace Sheng.Winform.Controls
 
         public ShengPanel()
         {
-            LicenseManager.Validate(typeof(ShengPanel));
 
             EnableDoubleBuffering();
 

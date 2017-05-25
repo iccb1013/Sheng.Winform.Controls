@@ -35,7 +35,6 @@ namespace Sheng.Winform.Controls
 
         public ShengAdvComboBox()
         {
-            LicenseManager.Validate(typeof(ShengAdvComboBox)); 
 
             SetStyle(ControlStyles.DoubleBuffer, true);
             SetStyle(ControlStyles.ResizeRedraw, true);

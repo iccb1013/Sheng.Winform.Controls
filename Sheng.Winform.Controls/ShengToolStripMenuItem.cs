@@ -19,13 +19,11 @@ namespace Sheng.Winform.Controls
         public ShengToolStripMenuItem()
             : this(String.Empty)
         {
-            LicenseManager.Validate(typeof(ShengToolStripMenuItem)); 
         }
 
         public ShengToolStripMenuItem(string strName)
             : base(strName)
         {
-            LicenseManager.Validate(typeof(ShengToolStripMenuItem)); 
 
             stringFormat.HotkeyPrefix = HotkeyPrefix.Show;
             //stringFormat.Trimming = StringTrimming.None;

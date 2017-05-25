@@ -364,7 +364,6 @@ namespace Sheng.Winform.Controls
         /// </summary>
         public ShengAdvLabel()
         {
-            LicenseManager.Validate(typeof(ShengAdvLabel)); 
 
             EnableDoubleBuffering();
 

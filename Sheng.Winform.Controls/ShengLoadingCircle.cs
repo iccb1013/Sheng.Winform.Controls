@@ -271,7 +271,6 @@ namespace Sheng.Winform.Controls
 
         public ShengLoadingCircle()
         {
-            LicenseManager.Validate(typeof(ShengLoadingCircle)); 
 
             SetStyle(ControlStyles.UserPaint, true);
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);

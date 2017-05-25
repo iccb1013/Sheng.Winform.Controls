@@ -71,9 +71,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(367, 111);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(377, 12);
+            this.label1.Size = new System.Drawing.Size(353, 12);
             this.label1.TabIndex = 3;
-            this.label1.Text = "FormShengAdressBar 是一个模仿 Windows 资源管理器地址栏的控件。";
+            this.label1.Text = "ShengAdressBar 是一个模仿 Windows 资源管理器地址栏的控件。";
             // 
             // label2
             // 

@@ -27,7 +27,6 @@ namespace Sheng.Winform.Controls
 
         public ShengToolStripSeparator()
         {
-            LicenseManager.Validate(typeof(ShengToolStripSeparator)); 
         }
 
         protected override void OnPaint(PaintEventArgs e)

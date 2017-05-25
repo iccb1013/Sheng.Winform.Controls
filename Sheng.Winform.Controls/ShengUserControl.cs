@@ -17,7 +17,6 @@ namespace Sheng.Winform.Controls
 
         public ShengUserControl()
         {
-            //LicenseManager.Validate(typeof(SEUserControl));
 
             InitializeComponent();
         }

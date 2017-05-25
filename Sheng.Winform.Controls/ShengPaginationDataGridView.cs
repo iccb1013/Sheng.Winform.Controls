@@ -361,7 +361,6 @@ namespace Sheng.Winform.Controls
 
         public ShengPaginationDataGridView()
         {
-            LicenseManager.Validate(typeof(ShengPaginationDataGridView)); 
 
             InitializeComponent();
 
