@@ -14,3 +14,5 @@
 源代码中包括了详细的注释，相信对你阅读使用源代码会有一定的帮助。
 
 如果在商业产品中使用了本控件库，请在版权说明画面给出提示以及本Github地址，谢谢。
+
+详细介绍请看这里：http://sheng.city/post/github-winform-sheng-winform-controls
