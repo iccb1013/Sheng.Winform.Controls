@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Winform.Controls", "Sheng.Winform.Controls\Sheng.Winform.Controls.csproj", "{8947FDAE-9F4B-4D77-91AA-0704ACD83DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Winform.Controls.Drawing", "Sheng.Winform.Controls.Drawing\Sheng.Winform.Controls.Drawing.csproj", "{BCD80096-7B6F-4273-A031-186A610C84E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Winform.Controls.Kernal", "Sheng.Winform.Controls.Kernal\Sheng.Winform.Controls.Kernal.csproj", "{125FB802-2C83-47DC-BA57-910064355CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Winform.Controls.Win32", "Sheng.Winform.Controls.Win32\Sheng.Winform.Controls.Win32.csproj", "{946FFB43-4864-4967-8D69-8716CDA83F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Winform.Controls.Localisation", "Sheng.Winform.Controls.Localisation\Sheng.Winform.Controls.Localisation.csproj", "{E0B8AD36-CC90-41F5-BD00-EC614569C9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Winform.Controls.Demo", "Sheng.Winform.Controls.Demo\Sheng.Winform.Controls.Demo.csproj", "{8DB4A7CC-C631-45BD-BB94-1BC9CF686609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8947FDAE-9F4B-4D77-91AA-0704ACD83DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8947FDAE-9F4B-4D77-91AA-0704ACD83DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8947FDAE-9F4B-4D77-91AA-0704ACD83DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8947FDAE-9F4B-4D77-91AA-0704ACD83DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD80096-7B6F-4273-A031-186A610C84E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD80096-7B6F-4273-A031-186A610C84E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD80096-7B6F-4273-A031-186A610C84E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD80096-7B6F-4273-A031-186A610C84E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125FB802-2C83-47DC-BA57-910064355CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125FB802-2C83-47DC-BA57-910064355CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125FB802-2C83-47DC-BA57-910064355CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125FB802-2C83-47DC-BA57-910064355CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946FFB43-4864-4967-8D69-8716CDA83F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946FFB43-4864-4967-8D69-8716CDA83F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946FFB43-4864-4967-8D69-8716CDA83F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946FFB43-4864-4967-8D69-8716CDA83F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B8AD36-CC90-41F5-BD00-EC614569C9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B8AD36-CC90-41F5-BD00-EC614569C9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B8AD36-CC90-41F5-BD00-EC614569C9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B8AD36-CC90-41F5-BD00-EC614569C9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB4A7CC-C631-45BD-BB94-1BC9CF686609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB4A7CC-C631-45BD-BB94-1BC9CF686609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB4A7CC-C631-45BD-BB94-1BC9CF686609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB4A7CC-C631-45BD-BB94-1BC9CF686609}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿在注册表的
+LocalMachine:SOFTWARE\Sheng.SIMBE\SEControl
+下，以一个 License 属性保存 sheng ，则允许使用

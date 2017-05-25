@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8DB4A7CC-C631-45BD-BB94-1BC9CF686609}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sheng.Winform.Controls.Demo</RootNamespace>
+    <AssemblyName>Sheng.Winform.Controls.Demo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMisc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMisc.Designer.cs">
+      <DependentUpon>FormMisc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengAdressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengAdressBar.Designer.cs">
+      <DependentUpon>FormShengAdressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengComboSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengComboSelector.Designer.cs">
+      <DependentUpon>FormShengComboSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengComboSelector2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengComboSelector2.Designer.cs">
+      <DependentUpon>FormShengComboSelector2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengDataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengDataGridView.Designer.cs">
+      <DependentUpon>FormShengDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengImageListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengImageListView.Designer.cs">
+      <DependentUpon>FormShengImageListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengListView.Designer.cs">
+      <DependentUpon>FormShengListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengThumbnailImageListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengThumbnailImageListView.Designer.cs">
+      <DependentUpon>FormShengThumbnailImageListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShengTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShengTreeView.Designer.cs">
+      <DependentUpon>FormShengTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainToolStripPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StartPageCodePage.cs" />
+    <Compile Include="StartPageScheme.cs" />
+    <Compile Include="TestListViewItem.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMisc.resx">
+      <DependentUpon>FormMisc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengAdressBar.resx">
+      <DependentUpon>FormShengAdressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengComboSelector.resx">
+      <DependentUpon>FormShengComboSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengComboSelector2.resx">
+      <DependentUpon>FormShengComboSelector2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengDataGridView.resx">
+      <DependentUpon>FormShengDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengImageListView.resx">
+      <DependentUpon>FormShengImageListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengListView.resx">
+      <DependentUpon>FormShengListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengThumbnailImageListView.resx">
+      <DependentUpon>FormShengThumbnailImageListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShengTreeView.resx">
+      <DependentUpon>FormShengTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Drawing\Sheng.Winform.Controls.Drawing.csproj">
+      <Project>{bcd80096-7b6f-4273-a031-186a610c84e5}</Project>
+      <Name>Sheng.Winform.Controls.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Kernal\Sheng.Winform.Controls.Kernal.csproj">
+      <Project>{125fb802-2c83-47dc-ba57-910064355ccd}</Project>
+      <Name>Sheng.Winform.Controls.Kernal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Localisation\Sheng.Winform.Controls.Localisation.csproj">
+      <Project>{e0b8ad36-cc90-41f5-bd00-ec614569c9f9}</Project>
+      <Name>Sheng.Winform.Controls.Localisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Win32\Sheng.Winform.Controls.Win32.csproj">
+      <Project>{946ffb43-4864-4967-8d69-8716cda83f7a}</Project>
+      <Name>Sheng.Winform.Controls.Win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls\Sheng.Winform.Controls.csproj">
+      <Project>{8947fdae-9f4b-4d77-91aa-0704acd83dbd}</Project>
+      <Name>Sheng.Winform.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browser_Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\1.PNG" />
+    <None Include="Resources\13.PNG" />
+    <None Include="Resources\12.PNG" />
+    <None Include="Resources\11.PNG" />
+    <None Include="Resources\10.PNG" />
+    <None Include="Resources\9.PNG" />
+    <None Include="Resources\8.PNG" />
+    <None Include="Resources\7.PNG" />
+    <None Include="Resources\5.PNG" />
+    <None Include="Resources\6.PNG" />
+    <None Include="Resources\4.PNG" />
+    <None Include="Resources\3.PNG" />
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

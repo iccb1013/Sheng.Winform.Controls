@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8947FDAE-9F4B-4D77-91AA-0704ACD83DBD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sheng.Winform.Controls</RootNamespace>
+    <AssemblyName>Sheng.Winform.Controls</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/SEControl/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrowserDisplayBinding\BrowserPane.cs" />
+    <Compile Include="BrowserDisplayBinding\DefaultHtmlViewSchemeExtension.cs" />
+    <Compile Include="BrowserDisplayBinding\ExtendedWebBrowser.cs" />
+    <Compile Include="BrowserDisplayBinding\HtmlViewPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BrowserDisplayBinding\HtmlViewPaneEvents.cs" />
+    <Compile Include="BrowserDisplayBinding\IHtmlViewSchemeExtension.cs" />
+    <Compile Include="ShengDataGridView\ShengDataGridViewImageBinderCell.cs" />
+    <Compile Include="ShengDataGridView\ShengDataGridViewImageBinderColumn.cs" />
+    <Compile Include="ShengDataGridView\Renderer\ShengDataGridViewCheckBoxCellRenderer.cs" />
+    <Compile Include="ShengDataGridView\Renderer\ShengDataGridViewImageCellRenderer.cs" />
+    <Compile Include="ShengDataGridView\Renderer\ShengDataGridViewRenderer.cs" />
+    <Compile Include="ShengDataGridView\Renderer\ShengDataGridViewRendererTheme.cs" />
+    <Compile Include="ShengDataGridView\Renderer\IShengDataGridViewCellRenderer.cs" />
+    <Compile Include="DragHelper.cs" />
+    <Compile Include="IconResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IconResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ShengImageListView\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\Events.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewHitInfo.cs" />
+    <Compile Include="ShengImageListView\ShengImageListViewItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewItemThumbnailsCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewLayoutManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewStandardRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShengImageListView\ShengImageListViewTheme.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocalizedDescription.cs" />
+    <Compile Include="PopupControl\GripBounds.cs" />
+    <Compile Include="PopupControl\NativeMethods.cs" />
+    <Compile Include="PopupControl\Popup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupControl\Popup.Designer.cs">
+      <DependentUpon>Popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupControl\PopupAnimation.cs" />
+    <Compile Include="PopupControl\PopupComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupControl\PopupComboBox.Designer.cs">
+      <DependentUpon>PopupComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupControl\PopupControlComboBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupControl\PopupControlComboBoxBase.Designer.cs">
+      <DependentUpon>PopupControlComboBoxBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Renderer\Office2010Renderer.cs" />
+    <Compile Include="Renderer\ToolStripRenders.cs" />
+    <Compile Include="ShengAreoMainMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengComboSelector2\ShengComboSelector2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengComboSelector2\Enums.cs" />
+    <Compile Include="ShengComboSelector2\ShengComboSelectorTheme.cs" />
+    <Compile Include="ShengAdressBar\ShengFileSystemNode.cs" />
+    <Compile Include="ShengAdressBar\IShengAddressNode.cs" />
+    <Compile Include="ShengAdressBar\ShengAddressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengAdressBar\ShengAddressBar.Designer.cs">
+      <DependentUpon>ShengAddressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengAdressBar\ShengAddressBarStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengAdressBar\ShengAddressBarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengAdressBar\ShengAddressBarDropDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengAdressBar\ShengAddressBarDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengAdressBar\ShengAddressBarDropDownItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengComboSelector\ShengComboSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengComboSelector\ShengComboSelector.Designer.cs">
+      <DependentUpon>ShengComboSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengComboSelector\ShengComboSelectorItem.cs" />
+    <Compile Include="ShengComboSelector\ShengComboSelectorItemCollection.cs" />
+    <Compile Include="ShengComboSelector\ShengComboSelectorItemContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengComboSelector\ShengComboSelectorItemContainer.Designer.cs">
+      <DependentUpon>ShengComboSelectorItemContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IShengValidate.cs" />
+    <Compile Include="ShengNavigationTreeView\ShengNavigationTreeNode.cs" />
+    <Compile Include="ShengNavigationTreeView\ShengNavigationTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IShengForm.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Renderer\SEToolStripRender.cs" />
+    <Compile Include="ShengAdvComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengAdvComboBoxDropdownBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengAdvComboBoxDropdownBase.Designer.cs">
+      <DependentUpon>ShengAdvComboBoxDropdownBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengAdvLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengColorChooseComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengColorChooseComboBox.Designer.cs">
+      <DependentUpon>ShengColorChooseComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengColorChooseComboBoxDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengColorChooseComboBoxDropDown.Designer.cs">
+      <DependentUpon>ShengColorChooseComboBoxDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengDataGridView\ShengDataGridViewCheckBoxColumn.cs" />
+    <Compile Include="ShengFlatButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengFlatButton.Designer.cs">
+      <DependentUpon>ShengFlatButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengListView\Enums.cs" />
+    <Compile Include="ShengListView\Events.cs" />
+    <Compile Include="ShengListView\Layout\IShengListViewExtendMember.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewDescriptiveLayoutManager.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewDescriptiveMembers.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewDescriptiveRenderer.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewLayoutManager.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewRenderer.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewStandardLayoutManager.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewStandardRenderer.cs" />
+    <Compile Include="ShengListView\Layout\ShengListViewTheme.cs" />
+    <Compile Include="ShengListView\ShengListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengListView\ShengListViewColor.cs" />
+    <Compile Include="ShengListView\ShengListViewHitInfo.cs" />
+    <Compile Include="ShengListView\ShengListViewItem.cs" />
+    <Compile Include="ShengListView\ShengListViewItemCollection.cs" />
+    <Compile Include="ShengLoadingCircle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengPad.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengPaginationDataGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengPaginationDataGridView.Designer.cs">
+      <DependentUpon>ShengPaginationDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengSimpleCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengDataGridView\ShengDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShengForm.Designer.cs">
+      <DependentUpon>ShengForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShengComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengDatetimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengToolStrip.cs" />
+    <Compile Include="ShengToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Renderer\SEToolStripProfessionalRenderer_Gary.cs" />
+    <Compile Include="ShengToolStripSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShengUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShengUserControl.Designer.cs">
+      <DependentUpon>ShengUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShengValidateHelper.cs" />
+    <Compile Include="ShengThumbnailImageListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Wizard\IWizardView.cs" />
+    <Compile Include="Wizard\WizardView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardView.Designer.cs">
+      <DependentUpon>WizardView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardPanelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardPanelBase.Designer.cs">
+      <DependentUpon>WizardPanelBase.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Localisation\Sheng.Winform.Controls.Localisation.csproj">
+      <Project>{e0b8ad36-cc90-41f5-bd00-ec614569c9f9}</Project>
+      <Name>Sheng.Winform.Controls.Localisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Drawing\Sheng.Winform.Controls.Drawing.csproj">
+      <Project>{BCD80096-7B6F-4273-A031-186A610C84E5}</Project>
+      <Name>Sheng.Winform.Controls.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Kernal\Sheng.Winform.Controls.Kernal.csproj">
+      <Project>{125FB802-2C83-47DC-BA57-910064355CCD}</Project>
+      <Name>Sheng.Winform.Controls.Kernal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sheng.Winform.Controls.Win32\Sheng.Winform.Controls.Win32.csproj">
+      <Project>{946FFB43-4864-4967-8D69-8716CDA83F7A}</Project>
+      <Name>Sheng.Winform.Controls.Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengAdvComboBoxDropdownBase.resx">
+      <DependentUpon>ShengAdvComboBoxDropdownBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengColorChooseComboBoxDropDown.resx">
+      <DependentUpon>ShengColorChooseComboBoxDropDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengForm.resx">
+      <DependentUpon>ShengForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardView.resx">
+      <DependentUpon>WizardView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_right_green.png" />
+    <None Include="Resources\Browser.png" />
+    <None Include="Resources\Browser_Back.png" />
+    <None Include="Resources\Browser_Forward.png" />
+    <None Include="Resources\Browser_Home.png" />
+    <None Include="Resources\Browser_Refresh.png" />
+    <None Include="Resources\Browser_Stop.png" />
+    <None Include="Resources\FolderClosed.bmp" />
+    <None Include="Resources\Folder.bmp" />
+    <None Include="Resources\Check.bmp" />
+    <None Include="Resources\Unknown.bmp" />
+    <None Include="Resources\Uncheck.bmp" />
+    <None Include="Resources\Leaf.bmp" />
+    <None Include="Resources\Minus2.png" />
+    <None Include="Resources\Plus2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IconResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IconResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengAdressBar\ShengAddressBar.resx">
+      <DependentUpon>ShengAddressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengComboSelector\ShengComboSelector.resx">
+      <DependentUpon>ShengComboSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengComboSelector\ShengComboSelectorItemContainer.resx">
+      <DependentUpon>ShengComboSelectorItemContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengFlatButton.resx">
+      <DependentUpon>ShengFlatButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengPaginationDataGridView.resx">
+      <DependentUpon>ShengPaginationDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShengUserControl.resx">
+      <DependentUpon>ShengUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardPanelBase.resx">
+      <DependentUpon>WizardPanelBase.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
