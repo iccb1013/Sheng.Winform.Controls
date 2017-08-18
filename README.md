@@ -15,6 +15,6 @@
 
 如果在商业产品中使用了本控件库，请在版权说明画面给出提示以及本Github地址，谢谢。
 
-详细介绍请看这里：http://sheng.city/post/github-winform-sheng-winform-controls
+详细介绍请看这里：http://blog.shengxunwei.com/Home/Post/179ee0db-aec6-4e63-a6a8-8456033cd75f
 
 SailingEase WinForm Framework 开发指引：http://docs.shengxunwei.com/Home/Browser/sewinformfw
