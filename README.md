@@ -1,4 +1,9 @@
 # Sheng.Winform.Controls
+
+请访问原版代码库，以获得最新更新: https://github.com/iccb1013/Sheng.Winform.Controls
+
+MIT 协议开源，可以随意使用，但是需在源代码和产品关于画面保留版权声明和我的网站链接，谢谢。
+
 升讯威 .Net WinForm 控件库提供了超过15种 Winform 控件，你可以直接使用本控件库，更可以通过本控件库学到 Winform 控件开发的方法和理念。
 你可以学习到：
 + 如何基于 Control 类重头开始实现一个具备复杂功能的 Winform 控件；
@@ -17,4 +22,12 @@
 
 详细介绍请看这里：http://blog.shengxunwei.com/Home/Post/179ee0db-aec6-4e63-a6a8-8456033cd75f
 
-SailingEase WinForm Framework 开发指引：http://docs.shengxunwei.com/Home/Browser/sewinformfw
+
+详细说明请浏览：
+https://shengxunwei.com
+
+曹旭升  
+QQ:279060597  
+Email：cao.silhouette@msn.com  
+@南京 
+
