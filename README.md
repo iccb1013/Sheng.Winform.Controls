@@ -1,33 +1,23 @@
 # Sheng.Winform.Controls
 
-请访问原版代码库，以获得最新更新: https://github.com/iccb1013/Sheng.Winform.Controls
+Shen .Net WinForm Control Library provides more than 15 WinForm controls. You can use this control library directly, and more importantly, you can learn the methods and concepts of WinForm control development through it.
 
-MIT 协议开源，可以随意使用，但是需在源代码和产品关于画面保留版权声明和我的网站链接，谢谢。
+You will learn:
 
-升讯威 .Net WinForm 控件库提供了超过15种 Winform 控件，你可以直接使用本控件库，更可以通过本控件库学到 Winform 控件开发的方法和理念。
-你可以学习到：
-+ 如何基于 Control 类重头开始实现一个具备复杂功能的 Winform 控件；
-+ GDI+ 绘图接口的使用方法，以及如何与用户的行为进行交互；
-+ 不同设计模式在 Winform 控件开发中的应用；
+How to implement a fully functional WinForm control from scratch based on the Control class.
+How to use the GDI+ drawing interface and interact with user actions.
+How different design patterns are applied in WinForm control development.
+Many people think that design patterns are only used to solve problems in large-scale solutions. However, here you will see that design patterns are not just for breaking down large projects— even for developing a single WinForm control, a well-structured design pattern can help you decompose and solve problems efficiently.
 
-对于设计模式，很多人的观念是它是用来解决大型解决方案中的问题的，但是我们在这里可以看到，设计模式不仅仅用于分解大型工程，小到一个 Winform 控件的开发，都需要具备良好的模式去帮助你分解问题，解决问题。
+For example, the Prototype Pattern—although I could explain this pattern in detail, I struggled to find a practical application for it until I discovered that Microsoft used it in implementing DataGridView to solve several key issues. That was an eye-opener.
 
-例如说原型模式，我虽然能够对这种模式娓娓道来，但是一直想不出它的应用场景到底是什么，直到我发现微软在实现 DataGridView 时，应用了原型模式解决了若干问题，才豁然开朗。
+Other design patterns, such as Factory Pattern, Builder Pattern, and Command Pattern, also have highly relevant use cases in complex WinForm control development.
 
-而其它诸如工厂模式，创建者模式，命令模式等，在复杂 Winform 控件的开发中，都有非常契合的应用场景。
+The source code includes detailed comments, which I believe will help you in reading and utilizing it effectively.
 
-源代码中包括了详细的注释，相信对你阅读使用源代码会有一定的帮助。
-
-如果在商业产品中使用了本控件库，请在版权说明画面给出提示以及本Github地址，谢谢。
-
-详细介绍请看这里：http://blog.shengxunwei.com/Home/Post/179ee0db-aec6-4e63-a6a8-8456033cd75f
+If you use this control library in a commercial product, please provide proper attribution in the copyright notice and include this GitHub address. Thank you!
 
 
-详细说明请浏览：
 https://shengxunwei.com
-
-曹旭升  
-QQ:279060597  
 Email：cao.silhouette@msn.com  
-@南京 
 
