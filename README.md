@@ -5,7 +5,7 @@
 
 Please visit the original code repository for the latest updates: https://github.com/iccb1013/Sheng.Winform.Controls .
 
-Shen .Net WinForm Control Library provides more than 15 WinForm controls. You can use this control library directly, and more importantly, you can learn the methods and concepts of WinForm control development through it.
+Sheng.Winform.Controls provides more than 15 WinForm controls. You can use this control library directly, and more importantly, you can learn the methods and concepts of WinForm control development through it.
 
 > I'm sorry that I didn't prepare a multilingual version at the time. If you have any questions about the code, please feel free to contact me, and I will be happy to assist you.
 
